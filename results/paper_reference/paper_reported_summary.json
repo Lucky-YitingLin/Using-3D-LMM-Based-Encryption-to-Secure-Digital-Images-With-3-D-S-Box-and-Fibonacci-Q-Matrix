@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "title": "Using 3D-LMM-Based Encryption to Secure Digital Images With 3-D S-Box and Fibonacci Q-Matrix",
+    "doi": "10.1109/JIOT.2025.3624032",
+    "software": "MATLAB 2022b",
+    "platform": "64-bit Windows 11, AMD Ryzen 7-7745HX, 16 GB RAM"
+  },
+  "headline": {
+    "average_information_entropy": 7.9993,
+    "encrypted_correlation_description": "close to 0.01"
+  },
+  "sbox": {
+    "nonlinearity_components": [106, 104, 102, 104, 102, 102, 102, 108],
+    "nonlinearity_average": 103.75,
+    "sac_average": 0.5017,
+    "bic_sac_average": 0.4958,
+    "bic_nonlinearity_comparison_value": 104
+  },
+  "lyapunov": {
+    "figure_5_caption": [2.005, 1.852, 1.5527],
+    "body_text": [4.3080, 4.0041, 3.4112],
+    "note": "The two reported triplets are internally inconsistent and are intentionally not reconciled here."
+  },
+  "timing_seconds": {
+    "512x512": 0.5551,
+    "256x256": 0.1942
+  },
+  "robustness_levels": {
+    "crop_ratio": [0.125, 0.25],
+    "salt_and_pepper_density": [0.10, 0.20, 0.30]
+  }
+}

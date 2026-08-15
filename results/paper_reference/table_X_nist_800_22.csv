@@ -1,0 +1,16 @@
+statistical_test,p_value,paper_result
+Frequency Test,0.383827,successful
+Block-Frequency Test,0.275709,successful
+Cumulative-Sums Test,0.798139,successful
+Runs Test,0.534146,successful
+Longest-Run Test,0.55442,successful
+Binary Matrix Rank Test,0.419021,successful
+Discrete Fourier Transform Test,0.759756,successful
+Non-Overlapping Templates Test,0.924076,successful
+Overlapping Templates Test,0.102526,successful
+Maurer's Universal Statistical Test,0.476524,successful
+Approximate Entropy Test,0.739918,successful
+Random-Excursions Test,0.350485,successful
+Random-Excursions Variant Test,0.534146,successful
+Serial Test,0.249284,successful
+Linear-Complexity Test,0.181557,successful

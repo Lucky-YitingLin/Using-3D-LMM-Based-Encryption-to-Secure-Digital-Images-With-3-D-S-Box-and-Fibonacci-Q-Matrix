@@ -1,0 +1,13 @@
+channel,direction,original,proposed
+red,horizontal,0.9171,0.0061
+red,vertical,0.864,0.013
+red,diagonal,0.8461,0.0128
+red,anti_diagonal,0.8428,-0.0248
+green,horizontal,0.8678,0.0048
+green,vertical,0.7481,0.0034
+green,diagonal,0.7374,-0.005
+green,anti_diagonal,0.7231,0.0152
+blue,horizontal,0.9053,0.0109
+blue,vertical,0.887,0.05
+blue,diagonal,0.8378,-0.0167
+blue,anti_diagonal,0.8447,-0.0211

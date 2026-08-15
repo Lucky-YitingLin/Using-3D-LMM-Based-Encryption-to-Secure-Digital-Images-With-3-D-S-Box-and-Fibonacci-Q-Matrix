@@ -1,0 +1,18 @@
+{
+  "lmm": {"a": 0.5, "b": 2.0, "c": 0.5, "d": 0.5, "e": 0.2},
+  "fsm_rounds": 16,
+  "sbox_fsm_rounds": 8,
+  "sbox_fill_burnin": 5000,
+  "sbox_index_burnin": 10000,
+  "sbox_scale": 1024,
+  "confusion_scale": 10000000000.0,
+  "fqm_scale": 10000000000.0,
+  "fqm_modulus": 64,
+  "pixel_modulus": 256,
+  "hash_mode": "pixel_bytes",
+  "hash_normalization": "paper_literal",
+  "hash_divisor": 10000000000000000.0,
+  "require_square_power_of_two": true,
+  "sbox_undefined_s22_source": "s12_values",
+  "fsm_recurrence": "sorting_preserving"
+}

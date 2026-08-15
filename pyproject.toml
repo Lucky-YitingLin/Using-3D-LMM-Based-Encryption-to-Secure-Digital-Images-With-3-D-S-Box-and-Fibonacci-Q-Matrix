@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threedsff-reproduction"
+version = "0.1.0"
+description = "Paper-derived reproduction of 3D-LMM / 3-D S-box / FSM / Fibonacci Q-matrix image encryption (3DSFF)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Reproduction contributors"}]
+keywords = ["image-encryption", "chaos", "s-box", "fibonacci-q-matrix", "cryptanalysis", "reproducibility"]
+dependencies = [
+  "numpy>=1.24,<3",
+  "Pillow>=9.5,<13",
+  "matplotlib>=3.7,<4",
+  "scipy>=1.10,<2",
+  "scikit-image>=0.21,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4,<9",
+  "pytest-cov>=4.1,<7",
+  "ruff>=0.5,<1",
+]
+
+[project.scripts]
+threedsff = "threedsff.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

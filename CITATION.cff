@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "3DSFF Image Encryption Reproduction"
+message: "If you use this reproduction, please cite both this software and the original paper."
+type: software
+version: 0.1.0
+license: MIT
+date-released: 2026-08-14
+preferred-citation:
+  type: article
+  title: "Using 3D-LMM-Based Encryption to Secure Digital Images With 3-D S-Box and Fibonacci Q-Matrix"
+  authors:
+    - family-names: Liao
+      given-names: Yunlong
+    - family-names: Lin
+      given-names: Yiting
+    - family-names: Xing
+      given-names: Zheng
+    - family-names: Li
+      given-names: Qiutong
+    - family-names: Huang
+      given-names: Guoheng
+    - family-names: Chen
+      given-names: Donglong
+    - family-names: Yuan
+      given-names: Xiaochen
+  journal: "IEEE Internet of Things Journal"
+  volume: 12
+  issue: 24
+  year: 2025
+  doi: "10.1109/JIOT.2025.3624032"
